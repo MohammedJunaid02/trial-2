@@ -1,0 +1,18 @@
+{
+  "name": "1.url-shortener",
+  "version": "1.0.0",
+  "description": "This is a Simple URL Shortener built using Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Junaid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0",
+    "shortid": "^2.2.16"
+  }
+}
